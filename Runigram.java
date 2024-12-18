@@ -203,9 +203,10 @@ public class Runigram {
 		double doubleN = (double) n;
 		for (int i = 0; i <= n; i ++){
 			double alpha = ((doubleN - i)/doubleN);
+			morphImage = blend(source, scaledTarget, (double) (n - i)/(double)n);
 			morphImage = blend(source, scaledTarget, alpha);
 			Runigram.display(morphImage);
-			StdDraw.pause(500); 
+			//StdDraw.pause(500); 
 		}
 	}
 	
