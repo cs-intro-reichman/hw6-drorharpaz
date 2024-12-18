@@ -29,7 +29,13 @@ public class ColorDemo {
         // Tests the print method: 
 		System.out.print("Red = "); print(red);
 		System.out.println();
-
+		System.out.print("white = "); print(white);
+		System.out.println();
+		System.out.print("black = "); print(black);
+		System.out.println();
+		System.out.print("yellow = "); print(yellow);
+		System.out.println();
+		
         // Constructs an array of Color objects, and prints the array elements.
 		Color[] bwbw = { black, white, black, white };
 		for (int i = 0; i < bwbw.length; i++) {
