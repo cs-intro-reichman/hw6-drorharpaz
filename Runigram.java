@@ -206,7 +206,7 @@ public class Runigram {
 			morphImage = blend(source, scaledTarget, (double) (n - i)/(double)n);
 			morphImage = blend(source, scaledTarget, alpha);
 			Runigram.display(morphImage);
-			//StdDraw.pause(500); 
+			StdDraw.pause(500); 
 		}
 	}
 	
